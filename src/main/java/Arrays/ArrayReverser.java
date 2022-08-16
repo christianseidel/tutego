@@ -1,10 +1,7 @@
 package Arrays;
 
-import java.util.Arrays;
-
 public class ArrayReverser {
 
-    public static void main(String[] args) {
 /*  Array umdrehen:
     Schreibe eine neue statische Methode reverse(), die ein gegebenes Array umdreht:
 
@@ -20,10 +17,7 @@ public class ArrayReverser {
             { 1 } → { 1 }
             { 1, 2 } → { 2, 1 }
             { 1, 2, 3 } → { 3, 2, 1 }
-
  */
-
-    }
 
     public double[] reverse(double[] numbers) {
 
