@@ -6,11 +6,6 @@ public class ArrayReverser {
 
     public static void main(String[] args) {
 /*  Array umdrehen:
-    Charlie Creevey macht für Captain CiaoCiao die Finanzen. Doch statt die Einnahmen aufsteigend zu sortieren, hat er
-    sie absteigend sortiert. Daher muss die Liste umgedreht werden. Ein Array umzudrehen bedeutet, dass das erste
-    Element mit dem letzten Element vertauscht wird, das zweite mit dem zweitletzten usw.
-
-    Aufgabe:
     Schreibe eine neue statische Methode reverse(), die ein gegebenes Array umdreht:
 
     public static void reverse( double[] numbers ) {

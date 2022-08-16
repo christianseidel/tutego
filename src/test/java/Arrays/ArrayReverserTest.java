@@ -1,6 +1,8 @@
 package Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
@@ -8,6 +10,7 @@ import java.util.Arrays;
 public class ArrayReverserTest {
 
     @Test
+    @DisplayName("this array is null")
     void shouldProvokeException() {
 
         // given
@@ -22,6 +25,7 @@ public class ArrayReverserTest {
 
 
     @Test
+    @DisplayName("Empty Array")
     void shouldReturnEmptyArray() {
 
         // given
@@ -43,6 +47,7 @@ public class ArrayReverserTest {
     }
 
     @Test
+    @DisplayName("2 Elements")
     void shouldSwapElements_ArrayWith2Elements() {
 
         // given
@@ -57,6 +62,7 @@ public class ArrayReverserTest {
     }
 
     @Test
+    @DisplayName("3 Elements")
     void shouldSwapElements_ArrayWith3Elements() {
 
         // given
@@ -73,6 +79,7 @@ public class ArrayReverserTest {
     }
 
     @Test
+    @DisplayName("8 Elements")
     void shouldSwapElements_ArrayWith8Elements() {
 
         // given
@@ -89,6 +96,7 @@ public class ArrayReverserTest {
     }
 
     @Test
+    @DisplayName("9 Elements")
     void shouldSwapElements_ArrayWith9Elements() {
 
         // given
