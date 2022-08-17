@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/MinDistanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,24 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Programmieren/Java/Tutorials",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programmieren/Java/Tutorials&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -63,7 +65,7 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayReverserTest">
+  <component name="RunManager" selected="JUnit.MinDistanceTest">
     <configuration name="ArrayReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutego" />
       <extension name="coverage">
@@ -79,22 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayReverserTest.shouldProvokeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
-      <option name="METHOD_NAME" value="shouldProvokeException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ArrayReverserTest.shouldSwapElements_ArrayWith2Elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutego" />
       <extension name="coverage">
@@ -106,22 +92,6 @@
       <option name="PACKAGE_NAME" value="Arrays" />
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
       <option name="METHOD_NAME" value="shouldSwapElements_ArrayWith2Elements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayReverserTest.shouldSwapElements_ArrayWith3Elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
-      <option name="METHOD_NAME" value="shouldSwapElements_ArrayWith3Elements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,13 +113,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.MinDistanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinDistanceTest.shouldReturnZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.MinDistanceTest" />
+      <option name="METHOD_NAME" value="shouldReturnZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinDistanceTest" />
+        <item itemvalue="JUnit.MinDistanceTest.shouldReturnZero" />
         <item itemvalue="JUnit.ArrayReverserTest" />
         <item itemvalue="JUnit.ArrayReverserTest.shouldSwapElements_ArrayWith8Elements" />
         <item itemvalue="JUnit.ArrayReverserTest.shouldSwapElements_ArrayWith2Elements" />
-        <item itemvalue="JUnit.ArrayReverserTest.shouldSwapElements_ArrayWith3Elements" />
-        <item itemvalue="JUnit.ArrayReverserTest.shouldProvokeException" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1660564002182</updated>
       <workItem from="1660564003949" duration="4180000" />
-      <workItem from="1660637882101" duration="9675000" />
+      <workItem from="1660637882101" duration="11337000" />
+      <workItem from="1660739954815" duration="1322000" />
     </task>
     <servers />
   </component>
