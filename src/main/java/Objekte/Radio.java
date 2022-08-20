@@ -1,4 +1,4 @@
-package Objekte.Christian;
+package Objekte;
 
 import java.util.Scanner;
 

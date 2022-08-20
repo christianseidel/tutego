@@ -1,4 +1,4 @@
-package Objekte.Christian;
+package Objekte;
 
 public class RadioApplication {
     public static void main(String[] args) {
