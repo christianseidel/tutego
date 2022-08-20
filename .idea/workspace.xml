@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/MinDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Arrays/MinDistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objekte/Christian/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objekte/Christian/RadioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,36 +38,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programmieren/Java/Tutorials&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Programmieren/Java/Tutorials",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Objekte.Christian" />
+      <recent name="Objekte" />
       <recent name="Arrays" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Objekte.Christian.Radio" />
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinDistanceTest">
+  <component name="RunManager" selected="Application.Objekte.RadioApplication">
+    <configuration name="RadioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Objekte.Christian.RadioApplication" />
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Objekte.Christian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutego" />
       <extension name="coverage">
@@ -77,38 +96,6 @@
       <option name="PACKAGE_NAME" value="Arrays" />
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayReverserTest.shouldSwapElements_ArrayWith2Elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
-      <option name="METHOD_NAME" value="shouldSwapElements_ArrayWith2Elements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayReverserTest.shouldSwapElements_ArrayWith8Elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
-      <option name="METHOD_NAME" value="shouldSwapElements_ArrayWith8Elements" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,13 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioControllerTest.shouldStartAndPlayRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Objekte.Christian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Objekte.Christian.Radio" />
+      <option name="MAIN_CLASS_NAME" value="Objekte.Christian.Radio.RadioControllerTest" />
+      <option name="METHOD_NAME" value="shouldStartAndPlayRadio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Objekte.RadioApplication" />
+        <item itemvalue="JUnit.RadioControllerTest.shouldStartAndPlayRadio" />
         <item itemvalue="JUnit.MinDistanceTest" />
         <item itemvalue="JUnit.MinDistanceTest.shouldReturnZero" />
         <item itemvalue="JUnit.ArrayReverserTest" />
-        <item itemvalue="JUnit.ArrayReverserTest.shouldSwapElements_ArrayWith8Elements" />
-        <item itemvalue="JUnit.ArrayReverserTest.shouldSwapElements_ArrayWith2Elements" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +167,10 @@
       <updated>1660564002182</updated>
       <workItem from="1660564003949" duration="4180000" />
       <workItem from="1660637882101" duration="11337000" />
-      <workItem from="1660739954815" duration="1322000" />
+      <workItem from="1660739954815" duration="1360000" />
+      <workItem from="1660807673854" duration="1358000" />
+      <workItem from="1660930830569" duration="4165000" />
+      <workItem from="1660998614693" duration="4019000" />
     </task>
     <servers />
   </component>
