@@ -10,21 +10,22 @@ public class RadioApplication {
         Radio myRadio = new Radio();
         myRadio.startRadio();
 
-        /*
         myRadio.volumeUp();
         myRadio.volumeUp();
         myRadio.volumeUp();
         myRadio.volumeUp();
-        System.out.println("\n" + myRadio);
-
         myRadio.setFrequency(250);
         System.out.println("\n" + myRadio);
 
+
+
+        /*
         myRadio.off();
         System.out.println("\n" + myRadio);
-*/
+
+
         System.out.println(Radio.stationNameToFrequency("Mein Lieblingssender"));
         System.out.println(Radio.stationNameToFrequency("Walking the Plank "));
-
+        */
     }
 }

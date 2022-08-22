@@ -26,7 +26,7 @@ public class Radio {
                     setVolume();
                     System.out.println(this);
                 } catch (IllegalArgumentException e) {
-                    System.err.println(e);
+                    System.err.println(e.getMessage());
                 }
             } else if (isOn == 0) {
                 this.isOn = false;
@@ -45,22 +45,24 @@ public class Radio {
         this.volume = new Scanner(System.in).nextInt();
 
         if (volume < 0) {
+            volume = 0;
             throw new IllegalArgumentException("Die Lautstärke darf keinen negativen Wert haben!");
         } else if (volume > 100) {
+            volume = 100;
             throw new IllegalArgumentException("Die Lautstärke darf maximal 100 betragen.");
         }
     }
 
     private void changeVolume(int value) {
         if (isOn) {
-            if (volume + value >= 100) {
+            if (volume + value > 100) {
                 System.out.println("Die maximale Lautstärke beträgt 100.");
                 volume = 100;
-            } else if (volume + value <= 0) {
+            } else if (volume + value < 0) {
                 System.out.println("Die minimale Lautstärke beträgt 0.");
                 volume = 0;
             } else {
-                volume = volume + value;
+                volume += value;
             }
         } else {
             System.out.println("Das Radio ist ausgeschaltet.");

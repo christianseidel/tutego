@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Objekte/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Objekte/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objekte/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Objekte/RadioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objekte/RadioApplication.java" afterDir="false" />
@@ -61,6 +60,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Objekte.Lösungen" />
       <recent name="Objekte" />
       <recent name="Objekte.Christian" />
       <recent name="Arrays" />
@@ -171,7 +171,7 @@
       <workItem from="1660807673854" duration="1358000" />
       <workItem from="1660930830569" duration="4165000" />
       <workItem from="1660998614693" duration="4744000" />
-      <workItem from="1661151928291" duration="8974000" />
+      <workItem from="1661151928291" duration="10625000" />
     </task>
     <servers />
   </component>
@@ -188,5 +188,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Objekte/Radio.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
