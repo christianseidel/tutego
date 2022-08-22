@@ -6,6 +6,7 @@ public class Radio {
 
     boolean isOn;
     int volume;
+    double frequency = 100.;
 
     public int getVolume() {
         return volume;
@@ -23,14 +24,14 @@ public class Radio {
                 validInput = true;
                 try {
                     setVolume();
-                    showRadio();
+                    System.out.println(this);
                 } catch (IllegalArgumentException e) {
                     System.err.println(e);
                 }
             } else if (isOn == 0) {
                 this.isOn = false;
                 validInput = true;
-                showRadio();
+                System.out.println(this);
             } else {
                 System.out.println("Bitte korrigiere deine Eingabe!");
             }
@@ -50,11 +51,58 @@ public class Radio {
         }
     }
 
-    private void showRadio() {
-        if (this.isOn) {
-            System.out.println("Das Radio läuft auf der Lautstärke: " + this.getVolume());
+    private void changeVolume(int value) {
+        if (isOn) {
+            if (volume + value >= 100) {
+                System.out.println("Die maximale Lautstärke beträgt 100.");
+                volume = 100;
+            } else if (volume + value <= 0) {
+                System.out.println("Die minimale Lautstärke beträgt 0.");
+                volume = 0;
+            } else {
+                volume = volume + value;
+            }
         } else {
             System.out.println("Das Radio ist ausgeschaltet.");
+        }
+    }
+
+    public void volumeUp() {
+        changeVolume(1);
+    }
+
+    public void volumeDown() {
+        changeVolume(-1);
+    }
+
+    public void on() {
+        isOn = true;
+    }
+
+    public void off() {
+        isOn = false;
+    }
+
+    public void setFrequency(double frequency) {
+        this.frequency = frequency;
+    }
+
+    public double getFrequency() {
+        return frequency;
+    }
+
+    @Override
+    public String toString() {
+        return "Das Radio " + (isOn ? "läuft auf der Frequenz " + getFrequency() + " mit Lautstärke " + getVolume() + "." : "läuft nicht.");
+    }
+
+    public static double stationNameToFrequency(String name) {
+
+        name = name.trim().toLowerCase();
+        if (name.equals("walking the plank")) {
+            return 98.3;
+        } else {
+            return 0.0;
         }
     }
 }
