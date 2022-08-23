@@ -1,6 +1,5 @@
 package Exceptions;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -17,35 +16,34 @@ public class LongestLineInFile {
     public static void main(String[] args) {
 
         Path path = Paths.get("src\\main\\java\\sources\\family-names.txt");
-        List<String> allNames = List.of();
 
         try {
-            allNames = Files.readAllLines(path, StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            System.err.println("Die Datei konnte nicht gefunden werden.");
-        }
+            List<String> allNames = Files.readAllLines(path, StandardCharsets.UTF_8);
+            if (allNames.size() > 0) {
+                String longestName = "", secondLongestName = "";
+                int lengthOfLongestName = 0, lengthOfSecondLongestName = 0;
 
-        String longestName = "";
-        String secondLongestName = "";
-        int numberOfCharactersOfLongestName = 0;
-        int numberOfCharactersOfSecondLongestName = 0;
-
-        if (allNames.size() > 0) {
-            for (String name : allNames) {
-                if (name.length() > longestName.length()) {
-                    secondLongestName = longestName;
-                    longestName = name;
-                    numberOfCharactersOfSecondLongestName = numberOfCharactersOfLongestName;
-                    numberOfCharactersOfLongestName = name.length();
+                for (String name : allNames) {
+                    if (name.length() > longestName.length()) {
+                        secondLongestName = longestName;
+                        longestName = name;
+                        lengthOfSecondLongestName = lengthOfLongestName;
+                        lengthOfLongestName = name.length();
+                    } else if (name.length() > secondLongestName.length()) {
+                        secondLongestName = name;
+                        lengthOfLongestName = name.length();
+                    }
                 }
+                System.out.println("" +
+                        "Der längste Name lautet: \"" + longestName
+                        + "\" und hat " + lengthOfLongestName + " Buchstaben."
+                        + "\nDer zweitlängste Name lautet: \"" + secondLongestName
+                        + "\" und hat " + lengthOfSecondLongestName + " Buchstaben.");
             }
-            System.out.println("" +
-                    "Der längste Name lautet: \"" + longestName
-                    + "\" und hat " + numberOfCharactersOfLongestName + " Buchstaben."
-            + "\nDer zweitlängste Name lautet: \"" + secondLongestName
-                    + "\" und hat " + numberOfCharactersOfSecondLongestName + " Buchstaben.");
-        }
 
+        } catch (IOException e) {
+            System.err.println("Die Datei \"" + path.getFileName() + "\" konnte nicht gefunden werden.");
+        }
 
     }
 }

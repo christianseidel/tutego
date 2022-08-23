@@ -38,4 +38,5 @@ build/
 .DS_Store
 
 ### mine ###
-/src/main/java/Objekte/Lösungen/
+/src/main/java/Objekte/solutions/
+/src/main/java/Exceptions/solutions/
