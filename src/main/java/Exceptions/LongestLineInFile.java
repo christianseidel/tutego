@@ -1,5 +1,6 @@
 package Exceptions;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -15,8 +16,7 @@ public class LongestLineInFile {
 
     public static void main(String[] args) {
 
-        Path path = Paths.get("D:\\Programmieren\\Java\\ullenboom\\tutego\\src\\main\\java\\sources\\family-names.txt");
-
+        Path path = Paths.get("src\\main\\java\\sources\\family-names.txt");
         List<String> allNames = List.of();
 
         try {
