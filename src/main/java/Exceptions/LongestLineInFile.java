@@ -9,6 +9,10 @@ import java.util.List;
 
 public class LongestLineInFile {
 
+    /*
+    Task: Specify the two longest names in a list of family names.
+     */
+
     public static void main(String[] args) {
 
         Path path = Paths.get("D:\\Programmieren\\Java\\ullenboom\\tutego\\src\\main\\java\\sources\\family-names.txt");
