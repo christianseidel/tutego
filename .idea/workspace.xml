@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/cartoonish-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/cartoonish-laugh.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/children-laughing.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/children-laughing.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/comedy-punch.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/comedy-punch.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/crowd-laughing.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/crowd-laughing.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/dateien.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/dateien.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-3.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-giggle.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-giggle.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-laugh-notsupported.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh-notsupported.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kookaburra-birds.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kookaburra-birds.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/male-laughter-1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/male-laughter-2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/witch-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/witch-laugh.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +74,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\Java\ullenboom\tutego\src\main\java\Exceptions\RandomLaughs\Sounds" />
       <recent name="D:\Programmieren\Java\ullenboom\tutego\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -73,8 +89,8 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomLaughs">
-    <configuration name="Exceptions.LongestLineInFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RandomLaughter">
+    <configuration name="LongestLineInFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exceptions.LongestLineInFile" />
       <module name="tutego" />
       <extension name="coverage">
@@ -100,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomLaughs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exceptions.RandomLaughs.RandomLaughs" />
+    <configuration name="RandomLaughter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions.RandomLaughs.RandomLaughter" />
       <module name="tutego" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomLaughs" />
+        <item itemvalue="Application.RandomLaughter" />
         <item itemvalue="Application.Exceptions.LongestLineInFile" />
         <item itemvalue="Application.RadioApplication" />
         <item itemvalue="JUnit.RadioControllerTest.shouldStartAndPlayRadio" />
@@ -169,7 +185,7 @@
       <workItem from="1660930830569" duration="4165000" />
       <workItem from="1660998614693" duration="4744000" />
       <workItem from="1661151928291" duration="11866000" />
-      <workItem from="1661240689975" duration="15358000" />
+      <workItem from="1661240689975" duration="15964000" />
     </task>
     <servers />
   </component>

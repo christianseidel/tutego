@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class RandomLaughs {
+public class RandomLaughter {
 
     /*
     Laughter Clips from: https://soundbible.com/tags-laugh.html
@@ -26,7 +26,7 @@ public class RandomLaughs {
                 Clip clip = AudioSystem.getClip();
                 clip.open(AudioSystem.getAudioInputStream(new File(setSoundFile())));
                 clip.start();
-                TimeUnit.MICROSECONDS.sleep(clip.getMicrosecondLength() + 5000);  // Ohne dieses Sleep-Statement würde das Program enden, ohne die Sound-Datei bis zum Ende abzuspielen.
+                TimeUnit.MICROSECONDS.sleep(clip.getMicrosecondLength() + 20);
                 clip.close();
             } catch (NullPointerException e) {
                 System.err.println("NullPointerException: Diese Datei ist nicht vorhanden.");
@@ -87,7 +87,7 @@ public class RandomLaughs {
                 break;
        }
 
-        return "src\\main\\java\\Exceptions\\RandomLaughs\\" + soundFile + ".wav";
+        return "src\\main\\java\\Exceptions\\RandomLaughs\\Sounds\\" + soundFile + ".wav";
         // return "src\\main\\java\\Exceptions\\RandomLaughs\\" + "kid-laugh-notsupported" + ".wav";
     }
 }
