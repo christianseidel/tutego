@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/LongestLineInFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Objekte/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objekte/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Objekte/RadioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Objekte/RadioApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +58,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programmieren\Java\ullenboom\tutego\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Objekte.Lösungen" />
       <recent name="Objekte" />
@@ -71,7 +73,20 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadioApplication">
+  <component name="RunManager" selected="Application.LongestLineInFile">
+    <configuration name="LongestLineInFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions.LongestLineInFile" />
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Objekte.RadioApplication" />
       <module name="tutego" />
@@ -81,21 +96,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayReverserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayReverserTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestLineInFile" />
         <item itemvalue="Application.RadioApplication" />
         <item itemvalue="JUnit.RadioControllerTest.shouldStartAndPlayRadio" />
         <item itemvalue="JUnit.MinDistanceTest" />
         <item itemvalue="JUnit.MinDistanceTest.shouldReturnZero" />
-        <item itemvalue="JUnit.ArrayReverserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,8 @@
       <workItem from="1660807673854" duration="1358000" />
       <workItem from="1660930830569" duration="4165000" />
       <workItem from="1660998614693" duration="4744000" />
-      <workItem from="1661151928291" duration="10625000" />
+      <workItem from="1661151928291" duration="11866000" />
+      <workItem from="1661240689975" duration="5699000" />
     </task>
     <servers />
   </component>
@@ -188,16 +189,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Objekte/Radio.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
