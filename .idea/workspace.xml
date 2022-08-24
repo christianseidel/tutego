@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/StringArrayIntoIntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exceptions/StringArrayToIntArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -69,18 +72,19 @@
       <recent name="Arrays" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Exceptions" />
       <recent name="Objekte" />
       <recent name="Objekte.Christian.Radio" />
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exceptions.RandomLaughter.RandomLaughter">
-    <configuration name="Exceptions.RandomLaughter.RandomLaughter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exceptions.RandomLaughter.RandomLaughter" />
+  <component name="RunManager" selected="Application.StringsToInteger">
+    <configuration name="StringsToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions.solutions.StringsToInteger" />
       <module name="tutego" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exceptions.RandomLaughter.*" />
+          <option name="PATTERN" value="Exceptions.solutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,58 +92,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Objekte.RadioApplication" />
+    <configuration name="StringArrayToIntArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutego" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Objekte.*" />
+          <option name="PATTERN" value="Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomLaughter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exceptions.RandomLaughs.RandomLaughter" />
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exceptions.RandomLaughs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinDistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutego" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Arrays.MinDistanceTest" />
+      <option name="PACKAGE_NAME" value="Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions.StringArrayToIntArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioControllerTest.shouldStartAndPlayRadio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringArrayToIntArrayTest.expectNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutego" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Objekte.*" />
+          <option name="PATTERN" value="Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Objekte.Christian.Radio" />
-      <option name="MAIN_CLASS_NAME" value="Objekte.Christian.Radio.RadioControllerTest" />
-      <option name="METHOD_NAME" value="shouldStartAndPlayRadio" />
+      <option name="PACKAGE_NAME" value="Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions.StringArrayToIntArrayTest" />
+      <option name="METHOD_NAME" value="expectNullPointerException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringArrayToIntArrayTest.expectNullPointerExceptionToo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions.StringArrayToIntArrayTest" />
+      <option name="METHOD_NAME" value="expectNullPointerExceptionToo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringArrayToIntArrayTest.shouldSetOffNullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutego" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions.StringArrayToIntArrayTest" />
+      <option name="METHOD_NAME" value="shouldSetOffNullPointerException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exceptions.RandomLaughter.RandomLaughter" />
-        <item itemvalue="Application.RandomLaughter" />
-        <item itemvalue="Application.RadioApplication" />
-        <item itemvalue="JUnit.RadioControllerTest.shouldStartAndPlayRadio" />
-        <item itemvalue="JUnit.MinDistanceTest" />
+        <item itemvalue="Application.StringsToInteger" />
+        <item itemvalue="JUnit.StringArrayToIntArrayTest" />
+        <item itemvalue="JUnit.StringArrayToIntArrayTest.expectNullPointerExceptionToo" />
+        <item itemvalue="JUnit.StringArrayToIntArrayTest.expectNullPointerException" />
+        <item itemvalue="JUnit.StringArrayToIntArrayTest.shouldSetOffNullPointerException" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +181,7 @@
       <workItem from="1660998614693" duration="4744000" />
       <workItem from="1661151928291" duration="11866000" />
       <workItem from="1661240689975" duration="16086000" />
-      <workItem from="1661323323685" duration="5456000" />
+      <workItem from="1661323323685" duration="11249000" />
     </task>
     <servers />
   </component>
