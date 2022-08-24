@@ -5,23 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/cartoonish-laugh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/children-laughing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/comedy-punch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/crowd-laughing.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-giggle.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-laugh-notsupported.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-laugh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kookaburra-birds.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/male-laughter-1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/male-laughter-2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/witch-laugh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/ze-files.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/cartoonish-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/cartoonish-laugh.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/children-laughing.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/children-laughing.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/comedy-punch.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/comedy-punch.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/crowd-laughing.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/crowd-laughing.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/dateien.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/dateien.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/hyena-laugh-3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-giggle.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-giggle.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-laugh-notsupported.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh-notsupported.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kid-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/kookaburra-birds.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kookaburra-birds.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/male-laughter-1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/male-laughter-2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/witch-laugh.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/witch-laugh.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/cartoonish-laugh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/children-laughing.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/comedy-punch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/crowd-laughing.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/dateien.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-giggle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh-notsupported.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kookaburra-birds.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/witch-laugh.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,25 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programmieren/Java/Tutorials&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Programmieren/Java/Tutorials",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -89,13 +106,13 @@
       <recent name="Arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomLaughter">
-    <configuration name="LongestLineInFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exceptions.LongestLineInFile" />
+  <component name="RunManager" selected="Application.Exceptions.RandomLaughter.RandomLaughter">
+    <configuration name="Exceptions.RandomLaughter.RandomLaughter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions.RandomLaughter.RandomLaughter" />
       <module name="tutego" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exceptions.RandomLaughs.*" />
+          <option name="PATTERN" value="Exceptions.RandomLaughter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions.RandomLaughter.RandomLaughter" />
         <item itemvalue="Application.RandomLaughter" />
-        <item itemvalue="Application.Exceptions.LongestLineInFile" />
         <item itemvalue="Application.RadioApplication" />
         <item itemvalue="JUnit.RadioControllerTest.shouldStartAndPlayRadio" />
         <item itemvalue="JUnit.MinDistanceTest" />
@@ -185,7 +202,8 @@
       <workItem from="1660930830569" duration="4165000" />
       <workItem from="1660998614693" duration="4744000" />
       <workItem from="1661151928291" duration="11866000" />
-      <workItem from="1661240689975" duration="15964000" />
+      <workItem from="1661240689975" duration="16086000" />
+      <workItem from="1661323323685" duration="5121000" />
     </task>
     <servers />
   </component>
@@ -202,5 +220,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
