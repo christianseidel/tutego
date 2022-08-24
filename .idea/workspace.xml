@@ -5,39 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="077bf518-b27b-4b39-ba15-b969ae7d555b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/cartoonish-laugh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/children-laughing.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/comedy-punch.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/crowd-laughing.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/hyena-laugh-3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-giggle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-laugh-notsupported.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kid-laugh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/kookaburra-birds.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/male-laughter-1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/male-laughter-2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/witch-laugh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/sounds/ze-files.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/RandomLaughter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/cartoonish-laugh.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/children-laughing.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/comedy-punch.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/crowd-laughing.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/dateien.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/hyena-laugh-3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-giggle.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh-notsupported.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kid-laugh.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/kookaburra-birds.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/male-laughter-2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughs/Sounds/witch-laugh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RandomLaughter/RandomLaughter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +171,7 @@
       <workItem from="1660998614693" duration="4744000" />
       <workItem from="1661151928291" duration="11866000" />
       <workItem from="1661240689975" duration="16086000" />
-      <workItem from="1661323323685" duration="5121000" />
+      <workItem from="1661323323685" duration="5456000" />
     </task>
     <servers />
   </component>

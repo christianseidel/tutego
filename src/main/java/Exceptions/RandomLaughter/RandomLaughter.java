@@ -22,19 +22,19 @@ public class RandomLaughter {
 
     static void playTheLoop(int times){
         for (int i = 0; i < times; i++) {
-            playOneClip();
+            playRandomClip();
         }
     }
 
-    static void playOneClip() {
+    static void playRandomClip() {
         try {
             Clip clip = AudioSystem.getClip();
-            clip.open(AudioSystem.getAudioInputStream(new File(setSoundFile())));
+            clip.open(AudioSystem.getAudioInputStream(new File(setRandomSoundFile())));
             clip.start();
             try {
                 TimeUnit.MICROSECONDS.sleep(clip.getMicrosecondLength() + 500);
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                System.err.println(e.getClass().getSimpleName());
             }
             clip.close();
         } catch (NullPointerException e) {
@@ -51,7 +51,7 @@ public class RandomLaughter {
 
     }
 
-    public static String setSoundFile() {
+    public static String setRandomSoundFile() {
 
         String soundFile;
         int index = (int)Math.round(Math.random() * 15) + 1;
